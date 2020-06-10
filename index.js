@@ -26,3 +26,4 @@ function mapToSquare(sourceArray){
   });
   return newArr;
 }
+
