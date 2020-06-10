@@ -42,6 +42,6 @@ function reduceToAllTrue(sourceArray){
       boolean = false;
       return ;
     }
-    
   });
+  return boolean;
 }
