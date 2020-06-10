@@ -47,5 +47,12 @@ function reduceToAllTrue(sourceArray){
 }
 
 function reduceToAnyTrue(sourceArray){
-  
+  let boolean = false;
+  sourceArray.forEach(element => {
+    if(element){
+      boolean = true;
+      return ;
+    }
+  });
+  return boolean;
 }
