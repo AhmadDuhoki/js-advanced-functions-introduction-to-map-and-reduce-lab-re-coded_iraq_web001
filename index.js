@@ -46,4 +46,6 @@ function reduceToAllTrue(sourceArray){
   return boolean;
 }
 
-function 
+function reduceToAnyTrue(sourceArray){
+  
+}
