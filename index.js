@@ -37,7 +37,9 @@ function reduceToTotal(sourceArray, startingPoint = 0){
 
 function reduceToAllTrue(sourceArray){
   let boolean = true;
-  if(){
-    
-  }
+  sourceArray.forEach(element => {
+    if(!element){
+      boolean = false;
+    }
+  });
 }
