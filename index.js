@@ -40,6 +40,8 @@ function reduceToAllTrue(sourceArray){
   sourceArray.forEach(element => {
     if(!element){
       boolean = false;
+      return ;
     }
+    
   });
 }
