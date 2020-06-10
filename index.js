@@ -28,5 +28,5 @@ function mapToSquare(sourceArray){
 }
 
 function reduceToTotal(sourceArray, startingPoint){
-  
+  let 
 }
