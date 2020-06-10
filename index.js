@@ -45,3 +45,5 @@ function reduceToAllTrue(sourceArray){
   });
   return boolean;
 }
+
+function 
