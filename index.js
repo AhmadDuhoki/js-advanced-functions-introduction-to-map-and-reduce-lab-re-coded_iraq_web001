@@ -36,5 +36,8 @@ function reduceToTotal(sourceArray, startingPoint = 0){
 }
 
 function reduceToAllTrue(sourceArray){
-  
+  let boolean = true;
+  if(){
+    
+  }
 }
