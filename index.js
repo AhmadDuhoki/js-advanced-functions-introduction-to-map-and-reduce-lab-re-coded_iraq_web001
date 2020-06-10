@@ -19,4 +19,10 @@ function mapToDouble(sourceArray){
   return newArr;
 }
 
-function 
+function mapToSquare(sourceArray){
+  let newArr = [];
+  sourceArray.forEach(element => {
+    newArr.push(element ** 2);
+  });
+  return newArr;
+}
